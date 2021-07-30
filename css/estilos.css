@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Indie+Flower&display=swap');
 
 * {
     margin :0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family:  'Source Sans Pro', sans-serif;  
+    font-family: 'Crimson Text', serif;  
 }
 
 header {
@@ -33,8 +35,13 @@ header {
     align-items: center;
 }
 
+.logo h1{
+    font-family: 'Indie Flower', cursive;
+}
+
 .logo h1 b{
     color: #46a2fd;
+    font-family: 'Indie Flower', cursive;
 }
 
 .menu{
@@ -217,4 +224,68 @@ article img{
 
 .container-aside aside button:hover{
     opacity: 0.9;
+}
+
+/* Footer - pie de pagina */
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+.container-footer footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+}
+
+.container-footer footer .redes-footer .fa-google-plus-g:hover{
+    background: #DE4C34;
+    color: #fff;
+}
+
+.container-footer footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none ;
+    height: 2px;
+    background: #;
 }
